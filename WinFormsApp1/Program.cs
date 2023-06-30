@@ -1,6 +1,4 @@
-using System.Text;
-
-namespace demo
+namespace WinFormsApp1
 {
     internal static class Program
     {
@@ -10,7 +8,6 @@ namespace demo
         [STAThread]
         static void Main()
         {
-            Console.OutputEncoding= Encoding.Unicode;
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();

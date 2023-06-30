@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6_b1", "Lab6_b1\Lab6_b1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6_p2", "Lab6_p2\Lab6_p2.csproj", "{C2D42837-FC56-4E08-ABA3-23B0FB9B432A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{1E7E46CE-CDA4-4877-8630-F604C5FB2706}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,12 @@ Global
 		{C2D42837-FC56-4E08-ABA3-23B0FB9B432A}.Release|ARM64.Build.0 = Release|Any CPU
 		{C2D42837-FC56-4E08-ABA3-23B0FB9B432A}.Release|x64.ActiveCfg = Release|Any CPU
 		{C2D42837-FC56-4E08-ABA3-23B0FB9B432A}.Release|x64.Build.0 = Release|Any CPU
+		{1E7E46CE-CDA4-4877-8630-F604C5FB2706}.Debug|Any CPU.ActiveCfg = Debug
+		{1E7E46CE-CDA4-4877-8630-F604C5FB2706}.Debug|ARM64.ActiveCfg = Debug
+		{1E7E46CE-CDA4-4877-8630-F604C5FB2706}.Debug|x64.ActiveCfg = Debug
+		{1E7E46CE-CDA4-4877-8630-F604C5FB2706}.Release|Any CPU.ActiveCfg = Release
+		{1E7E46CE-CDA4-4877-8630-F604C5FB2706}.Release|ARM64.ActiveCfg = Release
+		{1E7E46CE-CDA4-4877-8630-F604C5FB2706}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

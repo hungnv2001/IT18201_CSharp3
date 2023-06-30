@@ -24,7 +24,7 @@ namespace Lab3
         {
 
             string query = "select malop, tenLop from lop";
-            SqlConnection conn = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=Lab3;Persist Security Info=True;User ID=sa;Password=Matkhau1");
+            SqlConnection conn = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=Lab3;Persist Security Info=True;User ID=sa;Password=sa");
             conn.Open();
             SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
             DataTable ds = new DataTable();
@@ -53,7 +53,7 @@ namespace Lab3
             string query = "Select * from hocsinh";
             DataTable data = new DataTable();
             using (
-            SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Lab3;User ID=sa;Password=Matkhau1"))
+            SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Lab3;User ID=sa;Password=sa"))
             {
                 connection.Open();
                 SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
@@ -65,7 +65,7 @@ namespace Lab3
         }
         int ExcuteNonQuery(string query)
         {
-            using (SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Lab3;User ID=sa;Password=Matkhau1"))
+            using (SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Lab3;User ID=sa;Password=sa"))
             {
                 connection.Open();
                 SqlCommand cmd = new SqlCommand(query, connection);
